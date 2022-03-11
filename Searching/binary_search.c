@@ -19,7 +19,7 @@ int main()
     printf("Enter Array size :");
     scanf("%d", &n);
     int arr[n];
-    printf("Enter Array element:");
+    printf("Enter Array element of sized %ld: ",sizeof(arr)/sizeof(int));
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
